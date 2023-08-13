@@ -8,7 +8,7 @@ public class Lecture2_1 {
         System.out.println(result);
 
         byte one = 1;
-        byte two =2;
+        byte two = 2;
         int three = one + two;
 
         short s = 17;
@@ -19,8 +19,9 @@ public class Lecture2_1 {
 
         System.out.println("10" + 10);
 
-        char c = 65;
-        System.out.println(c);
-        
+        char a = 65;
+        char anotherA = 'A';
+        System.out.println(a);
+        System.out.println(anotherA);
     }
 }
