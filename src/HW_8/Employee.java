@@ -1,11 +1,11 @@
 package HW_8;
 
-public abstract class EmployeeEmpl {
+public abstract class Employee {
 
     double baseSalary;
     String name;
 
-    public EmployeeEmpl(String name, int baseSalary) {
+    public Employee(String name, int baseSalary) {
     }
 
     public double getBaseSalary() {

@@ -1,12 +1,17 @@
 package HW_8;
 
-public class Manager extends EmployeeEmpl{
+public class Manager extends Employee {
 
-    private  int numberOfSubordinates;
+    private int numberOfSubordinates;
 
-    public Manager(String name, int baseSalary){
+    public Manager(String name, int baseSalary) {
         super(name, baseSalary);
         this.numberOfSubordinates = numberOfSubordinates;
+    }
+
+    @Override
+    public double getSalary() {
+        return 0;
     }
 
     public int getNumberOfSubordinates() {

@@ -1,12 +1,12 @@
 package HW_8;
 
-public class Worker extends EmployeeEmpl{
+public class Worker extends Employee {
 
-    public Worker(String name; int baseSalary){
+    public Worker(String name, int baseSalary){
         super(name, baseSalary);
     }
 
-    public int getSalary(){
+    public double getSalary(){
         return getBaseSalary();
     }
 }
